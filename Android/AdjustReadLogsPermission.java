@@ -18,6 +18,9 @@
  * This class should be called from onCreate method of application's main Activity by: 
    AdjustReadLogsPermission.adjustIfNeeded(this);
  *
+ * This code sample uses libsuperuser (http://su.chainfire.eu/) which must be added to 
+ * project as Android library reference. Parts of this code come from libsuperuser example.
+ * libsuperuser is distributed under Apache License.
  * For more info and comments see http://forum.xda-developers.com/showthread.php?p=43035431
  */
 
@@ -56,7 +59,7 @@ public class AdjustReadLogsPermission extends AsyncTask<Void, Void, Void> {
     }
 
     private AdjustReadLogsPermission setActivity(Activity activity) {
-        // Save reerence to activity for use inside AsyncTask
+        // Save reference to activity for use inside AsyncTask
         this.activity = activity;
         return this;
     }

@@ -1,1 +1,0 @@
-/* Moved to /Android/AdjustReadLogsPermission.java */
