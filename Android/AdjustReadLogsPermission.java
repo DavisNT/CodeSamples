@@ -15,8 +15,10 @@
 
 /*
  * Solution for logcat reading on rooted Android 4.1+
- * This class should be called from onCreate method of application's main Activity be: AdjustReadLogsPermission.adjustIfNeeded(this);
- * For more usage details see http://forum.xda-developers.com/showthread.php?p=43035431
+ * This class should be called from onCreate method of application's main Activity by: 
+   AdjustReadLogsPermission.adjustIfNeeded(this);
+ *
+ * For more info and comments see http://forum.xda-developers.com/showthread.php?p=43035431
  */
 
 package enter.your.package.name.here;
